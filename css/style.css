@@ -1,5 +1,37 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+#yellow-text {
+    color: #D1B542;
+}
+
+#home-donate-btn {
+    border-radius: 25px;
+    background-color: #A42526;
+}
+
+#home-top {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    background-image: url(../image/lab_profile.JPEG);
+    background-size: cover;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#test {
+    text-align: center;
+}
+
+.bg-gray-900 {
+    background-color: #A42526;
+}
+
 section{
-    background-color: #cafafa;
+    background-color: white;
 }
 .logo{
     height:50px;
