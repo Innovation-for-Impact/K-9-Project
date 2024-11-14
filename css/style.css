@@ -6,6 +6,10 @@ html {
     color: #D1B542;
 }
 
+#red-text {
+    color:#A42526;
+}
+
 #home-donate-btn {
     border-radius: 25px;
     background-color: #A42526;
@@ -22,8 +26,19 @@ html {
     text-align: center;
 }
 
-#test {
+#home-about {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-image: url(../image/dogs_in_bed.JPEG);
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
     text-align: center;
+}
+
+.about-section-font {
+    font-size: 5rem;
 }
 
 .bg-gray-900 {
