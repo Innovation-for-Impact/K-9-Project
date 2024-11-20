@@ -2,6 +2,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    height:50px;
+}
+
 #yellow-text {
     color: #D1B542;
 }
@@ -9,6 +13,19 @@ html {
 #red-text {
     color:#A42526;
 }
+
+#black-text {
+    color:#000000;
+}
+
+#yellow-back {
+    background-color: #D1B542;
+    color: black;
+}
+
+/* #donate-img {
+    change size of malinois image
+} */
 
 #home-donate-btn {
     border-radius: 25px;
