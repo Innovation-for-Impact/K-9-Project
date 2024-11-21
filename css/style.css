@@ -1,5 +1,69 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    height:50px;
+}
+
+#yellow-text {
+    color: #D1B542;
+}
+
+#red-text {
+    color:#A42526;
+}
+
+#black-text {
+    color:#000000;
+}
+
+#yellow-back {
+    background-color: #D1B542;
+    color: black;
+}
+
+/* #donate-img {
+    change size of malinois image
+} */
+
+#home-donate-btn {
+    border-radius: 25px;
+    background-color: #A42526;
+}
+
+#home-top {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    background-image: url(../image/lab_profile.JPEG);
+    background-size: cover;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#home-about {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-image: url(../image/dogs_in_bed.JPEG);
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.about-section-font {
+    font-size: 5rem;
+}
+
+.bg-gray-900 {
+    background-color: #A42526;
+}
+
 section{
-    background-color: #cafafa;
+    background-color: white;
 }
 .logo{
     height:50px;
