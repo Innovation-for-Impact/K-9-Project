@@ -71,3 +71,34 @@ section{
 .py-10 {
     padding-top: 1.5rem;
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; /* Centers the container and adds some vertical spacing */
+  }
+  
+  .card {
+    flex: 1 1 calc(50% - 10px); /* Two cards per row */
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
