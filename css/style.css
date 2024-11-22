@@ -10,6 +10,15 @@ html {
     color:#A42526;
 }
 
+#white-text {
+    color:#ffffff;
+}
+
+#bigwhite-text {
+    color:#ffffff;
+    font-size: 6rem;
+}
+
 #home-donate-btn {
     border-radius: 25px;
     background-color: #A42526;

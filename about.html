@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Hello world! -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="image\sd.png" type="image/icon type">
-  <title>Oakland K-9 Security Services</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+
+  <link rel="icon" href="./image/k9_logo.png" type="image/icon type">
+  <title>Oakland K-9 | Home</title>
 
 </head>
 
 <body>
+
   <header class="text-gray-500 bg-gray-900 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="./index.html">
-        <img src="image\logo.png" class="logo" alt="">
-        <span class="ml-3 text-xl">Oakland K-9 Security Services</span>
+      <a class="flex items-center text-white" href="./index.html">
+        <img src="./image/k9_logo.png" class="logo" alt="Oakland K-9 logo">
+        <span class="ml-3 text-xl">Oakland K-9</span>
       </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-	  
-        <a href="index.html" class="mr-5 hover:text-white">Home</a>
-       <a href="gallary.html" class="mr-5 hover:text-white">Gallary</a>
-	   <a href="Our-Team.html" class="mr-5 hover:text-white">Our Team</a>
-        <a href="contact.html" class="mr-5 hover:text-white">Contact</a>
-		<a href="donate.html" class="mr-5 bg-red-500  text-black hover:text-white  border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-lg">Donate</a>
-      <td><input type="text" placeholder="Search"></td>
-	  </nav>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
+        <a href="./index.html" class="mr-5">Home</a>
+        <a href="./about.html" class="mr-5">About</a>
+	      <a href="./Our-Team.html" class="mr-5">Our Team</a>
+        <a href="./donate.html" class="mr-5">Donate</a>
+        <a href="./contact.html" class="mr-5">Contact Us</a>
+		  </nav>
     </div>
   </header>
+
   <section class="text-gray-700 body-font">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div
@@ -41,14 +43,14 @@
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="image\donate.jpg">
+        <img class="object-cover object-center rounded" alt="hero" src="./image/malinois_puppy.JPEG">
       </div>
     </div>
   </section>
 
   <section class="text-gray-500 bg-gray-900 body-font">
     <div class="container px-12 py-10 mx-auto">
-      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font">Our Services</h1>
+      <h1 id="bigwhite-text" class="flex-grow sm:pr-16 text-2xl font-medium title-font">Our Services</h1>
     </div>
   </section>
 
@@ -62,14 +64,14 @@
               <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h1 class="font-medium title-font text-xl  mb-1 tracking-wider">Explosives Detection</h1>
+              <h1 id="white-text" class="font-medium title-font text-xl  mb-1 tracking-wider">Explosives Detection</h1>
             </div>
           </div>
           <div class="flex relative pb-12">
@@ -77,14 +79,14 @@
               <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h2 class="font-medium title-font text-xl  mb-1 tracking-wider">Firearms Detection</h2>
+              <h2 id="white-text" class="font-medium title-font text-xl  mb-1 tracking-wider">Firearms Detection</h2>
             </div>
           </div>
           <div class="flex relative pb-12">
@@ -92,7 +94,7 @@
               <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <circle cx="12" cy="5" r="3"></circle>
@@ -100,7 +102,7 @@
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h2 class="font-medium title-font text-xl mb-1 tracking-wider">Narcotics Detection</h2>
+              <h2 id="white-text" class="font-medium title-font text-xl mb-1 tracking-wider">Narcotics Detection</h2>
             </div>
           </div>
           <div class="flex relative pb-12">
@@ -108,7 +110,7 @@
               <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -116,12 +118,12 @@
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h2 class="font-medium title-font text-xl mb-1 tracking-wider">Community Safety Programs</h2>
+              <h2 id="white-text" class="font-medium title-font text-xl mb-1 tracking-wider">Community Safety Programs</h2>
             </div>
           </div>
           <div class="flex relative">
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -129,11 +131,11 @@
               </svg>
             </div>
             <div class="flex-grow pl-4">
-              <h2 class="font-medium title-font text-xl mb-1 tracking-wider">Public Security</h2>
+              <h2 id="white-text" class="font-medium title-font text-xl mb-1 tracking-wider">Public Security</h2>
             </div>
           </div>
         </div>
-        <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="image\aa.gif"
+        <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="./image/dogs_in_bed.JPEG"
           alt="step">
       </div>
     </div>
@@ -149,8 +151,6 @@
         <div class="p-4 lg:w-1/2">
           <div
             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Video by Artem Podrez from Pexels" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-              src="image\Report.gif">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Expertise</h2>
               <p class="mb-4">Our canine teams are trained to the highest standards, ensuring accurate and reliable detection services. Our highly trained canine teams are dedicated to ensuring the security of schools, hospitals, special events, and other critical environments.   
@@ -186,8 +186,6 @@
         <div class="p-4 lg:w-1/2">
           <div
             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="Video by Free Videos from Pexels" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-              src="image\Updates.gif">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Community Focus</h2>
               <p class="mb-4">As a non-profit, our mission is centered around public safety and serving the community. We provide detection services across various settings, including educational institutions, healthcare facilities, and large-scale public events.
@@ -224,20 +222,20 @@
   <footer class="text-gray-500 bg-gray-900 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-        <img src="image\logo.png" class="logo" alt="">
-        <span class="ml-3 text-xl">Oakland K-9 Security Services</span>
+        <img src="./image/k9_logo.png" class="logo" alt="">
+        <span class="ml-3 text-xl">Oakland K-9</span>
       </a>
-      <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024
-        Oakland K-9 Security Services @Innovation for Impact</a>
+      <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+        © 2024 Oakland K-9</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-        <a class="text-gray-600">
+        <a class="text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
             viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-600">
+        <a class="ml-3 text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
             viewBox="0 0 24 24">
             <path
@@ -245,14 +243,14 @@
             </path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-600">
+        <a class="ml-3 text-white">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             class="w-5 h-5" viewBox="0 0 24 24">
             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-600">
+        <a class="ml-3 text-white">
           <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
             class="w-5 h-5" viewBox="0 0 24 24">
             <path stroke="none"
