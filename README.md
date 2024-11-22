@@ -1,2 +1,2 @@
-# Donation-website
-Build a Donation Website, Which will bring some kind of benefits to the roadside people and dog's life.
+# Oakland K-9 -website
+Building a nonprofit and organization website for FAQ and donations for Oakland K-9
